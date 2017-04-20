@@ -1,0 +1,75 @@
+{
+ "repositories": [
+   {
+     "type": "composer",
+     "url": "https://composer.typo3.org/"
+   },
+   {
+     "type": "vcs",
+     "url": "https://github.com/TYPO3-extensions/gridelements.git"
+   }
+ ]
+ ,
+ "require": {
+  "php": ">=7.0.0",
+  "typo3/cms": "^8.7",
+  "typo3/cms-about": "^8.7",
+  "typo3/cms-belog": "^8.7",
+  "typo3/cms-beuser": "^8.7",
+  "typo3/cms-context-help": "^8.7",
+  "typo3/cms-documentation": "^8.7",
+  "typo3/cms-extbase": "^8.7",
+  "typo3/cms-felogin": "^8.7",
+  "typo3/cms-filelist": "^8.7",
+  "typo3/cms-fluid-styled-content": "^8.7",
+  "typo3/cms-func": "^8.7",
+  "typo3/cms-impexp": "^8.7",
+  "typo3/cms-info":"^8.7",
+  "typo3/cms-info-pagetsconfig": "^8.7",
+  "typo3/cms-lowlevel": "^8.7",
+  "typo3/cms-reports": "^8.7",
+  "typo3/cms-rsaauth": "^8.7",
+  "typo3/cms-rte-ckeditor": "^8.7",
+  "typo3/cms-setup": "^8.7",
+  "typo3/cms-sys-note": "^8.7",
+  "typo3/cms-t3editor": "^8.7",
+  "typo3/cms-tstemplate": "^8.7",
+  "typo3/cms-viewpage": "^8.7",
+  "typo3/cms-wizard-crpages": "^8.7",
+  "typo3/cms-wizard-sortpages": "^8.7",
+  "typo3-ter/realurl": "~2",
+  "typo3-ter/vhs": "~4",
+  "sjbr/static-info-tables": "~6",
+  "gridelementsteam/gridelements": "dev-master as 7.0.0",
+  "kaystrobach/dyncss": "dev-master",
+  "kaystrobach/dyncss-less": "dev-master as 0.7",
+  "typo3-themes/themes": "dev-8-0 as 7.0.3",
+  "typo3-themes/themes-gridelements": "dev-master as 7.0.0",
+  "typo3-themes/theme-bootstrap": "dev-master",
+  "helhum/typo3-console": "4.5.0"
+ },
+ "scripts" : {
+   "post-install-cmd": [
+   ],
+   "post-update-cmd": [
+   ]
+ },
+ "require-dev": {
+ },
+ "autoload-dev": {
+ },
+ "extra": {
+   "typo3/cms": {
+     "cms-package-dir": "{$vendor-dir}/typo3/cms",
+     "web-dir": "web"
+   },
+  "helhum/typo3-console": {
+   "install-extension-dummy": "false"
+  }
+ },
+ "autoload": {
+   "psr-4": {
+     "TYPO3\\CMS\\Document\\": "web/typo3conf/ext/document/Classes/"
+   }
+ }
+}
