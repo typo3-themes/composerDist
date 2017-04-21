@@ -28,6 +28,7 @@ if [ ! -f web/typo3conf/LocalConfiguration.php ]; then
         --use-existing-database
 fi
 
+vendor/bin/typo3cms install:generatepackagestates
 vendor/bin/typo3cms extension:setupactive
 vendor/bin/typo3cms database:updateschema
 vendor/bin/typo3cms upgrade:all
