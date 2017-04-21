@@ -38,7 +38,7 @@
   "typo3/cms-wizard-crpages": "^8.7",
   "typo3/cms-wizard-sortpages": "^8.7",
   "typo3-ter/realurl": "~2",
-  "typo3-ter/vhs": "~4",
+
   "sjbr/static-info-tables": "~6",
   "gridelementsteam/gridelements": "dev-master as 7.0.0",
   "kaystrobach/dyncss": "dev-master",
